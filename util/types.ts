@@ -9,3 +9,14 @@ export interface IButtonProps{
     loading:boolean
     loadingTitle:string
 }
+
+export interface IArticleCardProps{
+    id:string
+    section:string
+    date:string
+    title:string
+    contentSample:string
+    content:string
+    author:string
+    featured_image:string
+}

@@ -1,12 +1,16 @@
 import NavLink from "./NavLink";
+import {useRouter} from 'next/router'
 
 export default function Navbar(): JSX.Element {
+    const router = useRouter()
     return (
         <nav className="p-2 top">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
-                <div className="flex items-center gap-2 md:gap-5 justify-center md:justify-start">
+                <div className="flex items-center gap-2 md:gap-5 justify-center md:justify-start cursor-pointer"
+                onClick={()=>{router.push('/')}}
+                >
                     <div className="bg-red-500 sm-circle flex items-center justify-center text-white p-1 rounded-full font-bold text-sm">I-Fun</div>
-                    <h1 className="font-bold">i-Fun Times Magazine</h1>
+                    <h1 className="font-bold hover:text-red-500">i-Fun Times Magazine</h1>
                 </div>
                 <div className="overflow-x-auto">
                 <div className="text-gray-500 flex gap-5 md:gap-0 md:justify-between mt-5 md:mt-0 text-sm w-max md:w-full">

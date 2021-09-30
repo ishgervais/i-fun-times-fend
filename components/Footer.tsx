@@ -46,7 +46,12 @@ export default function Footer(): JSX.Element {
                             <WhatsAppOutlined/>
                             <NavLink title="+250 782 842 174" path="#academics" styles="hover:text-red-500 hover:font-bold"/>
                         </div>
+                        <div className="flex gap-2 items-center">
+                            <MailOutlined/>
+                            <NavLink title="ifuntimes01@gmail.com" path="#academics" styles="hover:text-red-500 hover:font-bold"/>
+                        </div>
 
+                       
                         
 
 
@@ -60,7 +65,7 @@ export default function Footer(): JSX.Element {
                     <form action="" className="my-3">
                         <div className="form-group border rounded p-2 gap-2 flex items-center text-sm">
                             <MailOutlined/>
-                            <input type="email" name="" id="" className="focus:outline-none px-3 w-full" placeholder="Email address" />
+                            <input type="email" name="" id="" className="focus:outline-none px-1 w-full" placeholder="Email address" />
 
                         </div>
                         <div className="form-group border rounded p-2 text-sm my-3">
