@@ -23,7 +23,6 @@ export default function article():JSX.Element {
         <div className="w-full md:w-4/5">
         <div>
         <Article/>
-        <br />
         <h1 className="text-black text-2xl font-bold p-2">Other articles</h1>
        <ArticleSection/>
         <hr />

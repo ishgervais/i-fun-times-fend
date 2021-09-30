@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export default function IntroSection(): JSX.Element {
     return (
-        <section className="p-2 w-full flex justify-center my-10">
+        <section className="p-2 w-full flex justify-center my-2 md:my-10">
             <div className="w-full">
             <h1 className="font-bold text-4xl"> <span className="text-red-500"> i-Fun Times </span> <br /> Magazine</h1>
 

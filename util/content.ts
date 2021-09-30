@@ -20,5 +20,25 @@ export const content:IArticleCardProps[] = [
         content:"This quest equipped us with tremendous skills and knowledge that will transform our community. Isomo scholars were transformed into team players, critical thinkers, effective decision makers and servant leaders.",
         author:"Dadyne",
         featured_image:"benon.png"
+    },
+    {   
+        id:"ifun-a003article-xyz",
+        section:"Culture week",
+        date:"",
+        title:"Common lit, writing assignment that could make some sleep a half night.",
+        contentSample:" English fluency, This quest equipped us with tremendous skills and knowledge that will transform our community. Isomo scholars were transformed into team players, critical thinkers, effective decision makers and servant leaders.",
+        content:"This quest equipped us with tremendous skills and knowledge that will transform our community. Isomo scholars were transformed into team players, critical thinkers, effective decision makers and servant leaders.",
+        author:"Dadyne",
+        featured_image:"benon.png"
+    },
+    {   
+        id:"ifun-a004article-xyz",
+        section:"Internal relations",
+        date:"",
+        title:"Common lit, writing assignment that could make some sleep a half night.",
+        contentSample:" English fluency, This quest equipped us with tremendous skills and knowledge that will transform our community. Isomo scholars were transformed into team players, critical thinkers, effective decision makers and servant leaders.",
+        content:"This quest equipped us with tremendous skills and knowledge that will transform our community. Isomo scholars were transformed into team players, critical thinkers, effective decision makers and servant leaders.",
+        author:"Dadyne",
+        featured_image:"benon.png"
     }
 ]
