@@ -9,7 +9,7 @@ export default function Navbar(): JSX.Element {
                     <h1 className="font-bold">i-Fun Times Magazine</h1>
                 </div>
                 <div className="overflow-x-auto">
-                <div className="text-gray-500 flex gap-5 mt-5 md:mt-0 text-sm w-max">
+                <div className="text-gray-500 flex gap-5 md:gap-0 md:justify-between mt-5 md:mt-0 text-sm w-max md:w-full">
                     <NavLink title="Academics" path="#academics" styles="hover:text-red-500 hover:font-bold"/>
                     <NavLink title="Literature" path="#literature" styles="hover:text-red-500 hover:font-bold"/>
                     <NavLink title="Internal relations" path="#relations" styles="hover:text-red-500 hover:font-bold"/>
