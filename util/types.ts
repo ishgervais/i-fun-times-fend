@@ -3,3 +3,9 @@ export interface INavLinkProps{
     title:string
     styles:string
 }
+
+export interface IButtonProps{
+    title:string
+    loading:boolean
+    loadingTitle:string
+}
