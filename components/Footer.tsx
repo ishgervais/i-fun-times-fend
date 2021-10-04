@@ -7,7 +7,7 @@ export default function Footer(): JSX.Element {
         <section className="mt-5 md:mt-10 text-gray-500 p-2" id="footer">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between gap-4">
                 <div className="flex items-center gap-2 justify-start my-5">
-                    <div className="bg-red-500 sm-circle flex items-center justify-center text-white p-1 rounded-full font-bold text-sm">I-Fun</div>
+                    <div className="logo bg-red-500 sm-circle flex items-center justify-center text-white p-1 rounded-full font-bold text-sm">I-Fun</div>
                     <h1 className="font-bold text-black">i-Fun Times Magazine</h1>
                 </div>
                 <div className="my-5 lg:my-0">
