@@ -32,3 +32,30 @@ a {
   height:200px;
   object-fit: cover;
 }
+
+.darkMode{
+  background-color: rgb(0, 8, 24) !important;
+  color:#fff !important
+}
+.darkMode div,
+.darkMode input,
+.darkMode h1,
+.darkMode select,
+.darkMode textarea,
+.darkMode section,
+.darkMode form,
+.darkMode p
+{
+  background-color: rgb(0, 8, 24) !important;
+  color:#fff !important
+}
+
+/* exception of border */
+.darkMode table tr{
+  background-color: rgb(0, 8, 24) !important;
+  color:#fff !important;
+  border:none !important;
+}
+.darkMode .logo{
+  background-color: rgb(221, 23, 50) !important;
+}
